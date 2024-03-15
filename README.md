@@ -1,14 +1,19 @@
-#Arduino Uno - Unity 5.4.1f1
+# Unity + Arduino Controller
 version: 1.0.0
 
-##Features
+# Rquires
+Arduino Uno 
+Unity 5.4.1f1
+
+
+## Features
 1. Reads the Input from an Arduino Uno JoyStick
 2. Sends the Joystick Input to Unity
 3. Simply Rotates a Cube GameObject in Unity MainScene
 4. Reads out the Transform values of the Cube
 
 
-##Installation
+## Installation
 1. Download or Clone this Repository
 2. Setup an Arduino Uno as Simple Single JoyStick Controller (See Guide for Tutorial)
 3. Upload the "Arduino-Unity.ino" file to your Arduino
@@ -16,16 +21,10 @@ version: 1.0.0
 5. Enjoy the Results!
 
 
-##Guides
+## Guides
 + For an extensive guide on How-To-Use and a Tutorial on How-To-Make see below
 
-##Credit
-Ian Munster
-
-GitHub: @IanMunster
-
-
-##ChangeLog
+## ChangeLog
 v.1.0.0
 + Created the initial Arduino Uno script
 + Created the initial Unity SerialRead script
@@ -33,13 +32,13 @@ v.1.0.0
 + Api Compability Level to .NET 2.0. (instead of .NET 2.0 Subset)
 + Made simple MainScene for instant result feedback
 
-#Extensive Tutorial Arduino - Unity
+# Extensive Tutorial Arduino - Unity
 version: 0.1.0
 
-##Description
+## Description
+Create a Controller with Arduino Uno and read the inputs in Unity 3D
 
-
-##ContentTable:
+## ContentTable:
 1. Making an Arduino Uno Controller
 2. Creating the Arduino Uno script
 3. Setting up the Unity Project
@@ -75,6 +74,8 @@ In other words this means that our sensors are characterized with a value betwee
 The following code includes a method called treatValue() that is transforming the sensor's messurement into a value between 0 and 9 and sends it in ASCII back to the computer.
 
 This allows to easily send the information into e.g. Flash and parse it inside your own code. 
+
+<!--
 
 ### Step 4) Colored Schematic
 ![]()
@@ -126,3 +127,4 @@ For this project in used [CodeBender Site](https://CodeBender.cc/ "CodeBender")
 ### Step 7)
 ### Step 8)
 ### Step 9)
+-->
